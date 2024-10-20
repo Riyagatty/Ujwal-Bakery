@@ -1,3 +1,4 @@
+import Home from '../pages/Home/Home'
 import bakery from './bakery.png'
 import logo from './logo.png'
 import looking from './looking.png'
@@ -8,4 +9,6 @@ export const assets={
     logo,
     looking,
     userlogin,
+    Homepage,
+    
 }

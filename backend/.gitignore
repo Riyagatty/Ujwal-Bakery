@@ -1,0 +1,26 @@
+# Ignore node_modules directory (common for Node.js projects)
+node_modules/
+
+# Ignore build directories (common for compiled projects)
+build/
+dist/
+
+# Ignore logs and debug files
+*.log
+*.debug
+
+# Ignore system files (e.g., Mac OS X, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore environment-specific files (e.g., Python virtual environments)
+venv/
+.env/
+
+# Ignore IDE/editor settings (e.g., Visual Studio Code, IntelliJ, etc.)
+.vscode/
+.idea/
+
+# Ignore temporary files
+*.swp
+*.swo

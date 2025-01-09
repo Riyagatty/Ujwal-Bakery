@@ -3,6 +3,7 @@ import fs from 'fs';
 
 //add food item
 const addFood = async (req, res) => {
+    console.log(req.file)
     let image_filename = `${req.file.filename}`;
     console.log("added")
     const food = new foodModel({
